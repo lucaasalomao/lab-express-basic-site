@@ -1,5 +1,63 @@
-body {
-    color: blue;
-    background-color: bisque;
+*{
+  color: white;
+}
+
+.home-body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 42vh;  
+}
+
+.home-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+a { 
+  border: 2px solid blueviolet;
+  border-radius: 8px;
+  padding: 5px 10px 5px 10px;
+  margin: 0px 8px 0px 8px;
+  text-decoration: none;
+}
+
+
+.about-body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  max-width: 30%;
+  height: auto;
+  border-radius: 3%;
+}
+
+/*
+
+
+h1 {
+  max-width: 20%;
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
   }
-  
+}
+
+ If the screen size is 600px wide or less, set the font-size of <div> to 30px
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+} 
+
+*/
